@@ -640,17 +640,17 @@ public class translation extends javax.swing.JFrame {
                  else if(index2==1)//English to hindi 
                       {
         
-                        // String fileName = "/home/rajesh/gui_model/english-hindi/test.out.hi.text";
+                         //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
                          //String line ;
-                         //ArrayList aList = new ArrayList();
+                        // ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/english-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/english-hindi/decoding_english-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -660,7 +660,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/english-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  //  while((str = br.readLine())!=null)
@@ -684,17 +684,17 @@ public class translation extends javax.swing.JFrame {
                  {
                      
         
-                         String fileName = "/home/rajesh/gui_model/eng-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                         //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                         //String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-bengali/decoding_eng-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -704,9 +704,9 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
-                 // FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                 // FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                 //  BufferedReader br = new BufferedReader(fr);
                   jTextArea2.read(br, null);
                   br.close();
@@ -719,17 +719,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==3)//English to Gujarati 
                  {
-                     String fileName = "/home/rajesh/gui_model/eng-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-gujarati/decoding_eng-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -739,10 +739,10 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
-                 // FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                 // FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                  // BufferedReader br = new BufferedReader(fr);
                   jTextArea2.read(br, null);
                   br.close();
@@ -755,17 +755,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==4)//English to Tamil 
                  {
-                     String fileName = "/home/rajesh/gui_model/eng-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-tamil/decoding_eng-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -775,7 +775,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea2.read(br, null);
@@ -789,17 +789,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==5)//English to Telugu 
                  {
-                     String fileName = "/home/rajesh/gui_model/eng-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-telugu/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-telugu/decoding_eng-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -809,7 +809,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
                   jTextArea2.read(br, null);
                   br.close();
@@ -822,17 +822,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==6)//English to Marathi 
                  {
-                     String fileName = "/home/rajesh/gui_model/eng-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-marathi/decoding_eng-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -842,7 +842,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -856,17 +856,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==7)//English to Malayalam
                  {
-                     String fileName = "/home/rajesh/gui_model/eng-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-malayalam/decoding_eng-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -876,7 +876,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -890,17 +890,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==8)//English to Urdu 
                  {
-                     String fileName = "/home/rajesh/gui_model/eng-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-urdu/decoding_eng-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -910,7 +910,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -924,17 +924,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==9)//English to Konkani 
                  {
-                     String fileName = "/home/rajesh/gui_model/eng-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                        // ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-konkani/decoding_eng-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -944,7 +944,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -958,17 +958,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==10)//English to Punjabi 
                  {
-                     String fileName = "/home/rajesh/gui_model/eng-panjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-panjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-panjabi/decoding_eng-panjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -978,7 +978,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-panjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -992,17 +992,17 @@ public class translation extends javax.swing.JFrame {
                  }
                /* else if(index2==11)//English to Manipuri 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1012,7 +1012,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1026,17 +1026,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==12)//English to Sanskrit 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1046,7 +1046,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea2.read(br, null);
@@ -1066,17 +1066,17 @@ public class translation extends javax.swing.JFrame {
         { 
                if(index2==0)//Hindi to English 
                  {
-                    String fileName = "/home/rajesh/gui_model/hindi-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                        // ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-english/decoding_hindi-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1086,7 +1086,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea2.read(br, null);
@@ -1104,17 +1104,21 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==2)//Hindi to Bengali 
                  {
-                     String fileName = "/home/rajesh/gui_model/hindi-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //home/iitp/rajesh/global_call/test.en.text
+                      //bash /home/iitp/rajesh/global_call/decoding.sh
+                      ///home/iitp/rajesh/global_call/test.out.hi.text
+
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-bengali/decoding_hindi-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1124,7 +1128,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea2.read(br, null);
@@ -1138,17 +1142,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==3)//Hindi to Gujarati 
                  {
-                     String fileName = "/home/rajesh/gui_model/hindi-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-gujarati/decoding_hindi-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1158,7 +1162,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea2.read(br, null);
@@ -1172,17 +1176,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==4)//Hindi to Tamil
                  {
-                     String fileName = "/home/rajesh/gui_model/hindi-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-tamil/decoding_hindi-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1192,7 +1196,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea2.read(br, null);
@@ -1206,17 +1210,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==5)//Hindi to Telugu
                  {
-                     String fileName = "/home/rajesh/gui_model/hindi-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                  //   String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-telugu/decoding_hindi-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1226,7 +1230,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1240,17 +1244,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==6)//Hindi to Marathi 
                  {
-                     String fileName = "/home/rajesh/gui_model/hindi-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-marathi/decoding_hindi-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1260,7 +1264,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea2.read(br, null);
@@ -1274,17 +1278,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==7)//Hindi to Malayalam 
                  {
-                     String fileName = "/home/rajesh/gui_model/hindi-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-malayalam/decoding_hindi-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1294,7 +1298,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1308,17 +1312,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==8)//Hindi to Urdu
                  {
-                     String fileName = "/home/rajesh/gui_model/hindi-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                        // ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-urdu/decoding_hindi-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1328,7 +1332,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea2.read(br, null);
@@ -1342,17 +1346,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==9)//Hindi to Konkani 
                  {
-                     String fileName = "/home/rajesh/gui_model/hindi-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-konkani/decoding_hindi-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1362,7 +1366,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1376,17 +1380,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==10)//Hindi to Punjabi 
                  {
-                     String fileName = "/home/rajesh/gui_model/hindi-panjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                   //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-panjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-panjabi/decoding_hindi-panjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1396,7 +1400,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-panjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea2.read(br, null);
@@ -1410,17 +1414,17 @@ public class translation extends javax.swing.JFrame {
                  }
               /* else if(index2==11)//Hindi to Manipuri 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1430,7 +1434,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1444,17 +1448,17 @@ public class translation extends javax.swing.JFrame {
                  }
                else if(index2==12)//Hindi to Sanaskrit
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1464,7 +1468,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -1484,17 +1488,17 @@ public class translation extends javax.swing.JFrame {
         { 
                if(index2==0)//Bengali to English 
                  {
-                     String fileName = "/home/rajesh/gui_model/bengali-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-english/decoding_bengali-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1504,7 +1508,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1518,17 +1522,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==1)//Bengali to Hindi 
                  {
-                     String fileName = "/home/rajesh/gui_model/bengali-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                   //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-hindi/decoding_bengali-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1538,7 +1542,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1556,17 +1560,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==3)//Bengali to Gujarati 
                  {
-                     String fileName = "/home/rajesh/gui_model/bengali-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-gujarati/decoding_bengali-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1576,7 +1580,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1590,17 +1594,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==4)//Bengali to Tamil
                  {
-                     String fileName = "/home/rajesh/gui_model/bengali-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-tamil/decoding_bengali-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1610,7 +1614,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1624,17 +1628,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==5)//Bengali to Telugu
                  {
-                     String fileName = "/home/rajesh/gui_model/bengali-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                   //  String fileName = "/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-telugu/decoding_bengali-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1644,7 +1648,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1658,17 +1662,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==6)//Bengali to Marathi 
                  {
-                     String fileName = "/home/rajesh/gui_model/bengali-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                        // ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-marathi/decoding_bengali-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1678,7 +1682,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1692,17 +1696,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==7)//Bengali to Malayalam 
                  {
-                     String fileName = "/home/rajesh/gui_model/bengali-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-malayalam/decoding_bengali-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1712,7 +1716,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1726,17 +1730,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==8)//Bengali to Urdu
                  {
-                     String fileName = "/home/rajesh/gui_model/bengali-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-urdu/decoding_bengali-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1746,7 +1750,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1760,17 +1764,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==9)//Bengali to Konkani 
                  {
-                     String fileName = "/home/rajesh/gui_model/bengali-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-konkani/decoding_bengali-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1780,7 +1784,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1794,17 +1798,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==10)//Bengali to Punjabi 
                  {
-                     String fileName = "/home/rajesh/gui_model/bengali-punjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-punjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-punjabi/decoding_bengali-punjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1814,7 +1818,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-punjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1828,17 +1832,17 @@ public class translation extends javax.swing.JFrame {
                  }
              /*  else if(index2==11)//Bengali to Manipuri 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1848,7 +1852,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1862,17 +1866,17 @@ public class translation extends javax.swing.JFrame {
                  }
                else if(index2==12)//Bengali to Sanaskrit
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1882,7 +1886,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1902,17 +1906,17 @@ public class translation extends javax.swing.JFrame {
         { 
                if(index2==0)//Gujarati to English 
                  {
-                     String fileName = "/home/rajesh/gui_model/gujarati-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-english/decoding_gujarati-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1922,7 +1926,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1936,17 +1940,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==1)//Gujarati to Hindi 
                  {
-                     String fileName = "/home/rajesh/gui_model/gujarati-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-hindi/decoding_gujarati-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1956,7 +1960,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -1970,17 +1974,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==2)//Gujarati to Bengali 
                  {
-                     String fileName = "/home/rajesh/gui_model/gujarati-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-bengali/decoding_gujarati-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -1990,7 +1994,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2008,17 +2012,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==4)//Gujarati to Tamil
                  {
-                     String fileName = "/home/rajesh/gui_model/gujarati-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-tamil/decoding_gujarati-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2028,7 +2032,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2042,17 +2046,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==5)//Gujarati to Telugu
                  {
-                     String fileName = "/home/rajesh/gui_model/gujarati-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-telugu/decoding_gujarati-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2062,7 +2066,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2076,17 +2080,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==6)//Gujarati to Marathi 
                  {
-                     String fileName = "/home/rajesh/gui_model/gujarati-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-marathi/decoding_gujarati-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2096,7 +2100,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2110,17 +2114,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==7)//Gujarati to Malayalam 
                  {
-                     String fileName = "/home/rajesh/gui_model/gujarati-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-malayalam/decoding_gujarati-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2130,7 +2134,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2144,17 +2148,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==8)//Gujarati to Urdu
                  {
-                     String fileName = "/home/rajesh/gui_model/gujarati-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-urdu/decoding_gujarati-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2164,7 +2168,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2178,17 +2182,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==9)//Gujarati to Konkani 
                  {
-                     String fileName = "/home/rajesh/gui_model/gujarati-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-konkani/decoding_gujarati-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2198,7 +2202,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2212,17 +2216,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==10)//Gujarati to Punjabi 
                  {
-                     String fileName = "/home/rajesh/gui_model/gujarati-panjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-panjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-panjabi/decoding_gujarati-panjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2232,7 +2236,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-panjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2246,17 +2250,17 @@ public class translation extends javax.swing.JFrame {
                  }
           /*     else if(index2==11)//Gujarati to Manipuri 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2266,7 +2270,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2280,17 +2284,17 @@ public class translation extends javax.swing.JFrame {
                  }
                else if(index2==12)//Gujarati to Sanaskrit
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2300,7 +2304,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2320,17 +2324,17 @@ public class translation extends javax.swing.JFrame {
         { 
                if(index2==0)//Tamil to English 
                  {
-                     String fileName = "/home/rajesh/gui_model/tamil-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-english/decoding_tamil-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2340,7 +2344,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                       jTextArea2.read(br, null);
@@ -2354,17 +2358,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==1)//Tamil to Hindi 
                  {
-                     String fileName = "/home/rajesh/gui_model/tamil-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-hindi/decoding_tamil-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2374,7 +2378,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2388,17 +2392,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==2)//Tamil to Bengali 
                  {
-                     String fileName = "/home/rajesh/gui_model/tamil-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-bengali/decoding_tamil-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2408,7 +2412,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -2422,17 +2426,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==3)//Tamil to Gujarati 
                  {
-                     String fileName = "/home/rajesh/gui_model/tamil-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                   //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                   //      String line ;
+                   //      ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-gujarati/decoding_tamil-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2442,7 +2446,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea2.read(br, null);
@@ -2460,17 +2464,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==5)//Tamil to Telugu
                  {
-                     String fileName = "/home/rajesh/gui_model/tamil-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-telugu/decoding_tamil-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2480,7 +2484,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea2.read(br, null);
@@ -2494,17 +2498,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==6)//Tamil to Marathi 
                  {
-                     String fileName = "/home/rajesh/gui_model/tamil-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-marathi/decoding_tamil-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2514,7 +2518,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2528,17 +2532,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==7)//Tamil to Malayalam 
                  {
-                     String fileName = "/home/rajesh/gui_model/tamil-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-malayalam/decoding_tamil-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2548,7 +2552,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2562,17 +2566,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==8)//Tamil to Urdu
                  {
-                     String fileName = "/home/rajesh/gui_model/tamil-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-urdu/decoding_tamil-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2582,7 +2586,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2596,17 +2600,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==9)//Tamil to Konkani 
                  {
-                     String fileName = "/home/rajesh/gui_model/tamil-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                        // ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-konkani/decoding_tamil-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2616,7 +2620,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2630,17 +2634,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==10)//Tamil to Punjabi 
                  {
-                     String fileName = "/home/rajesh/gui_model/tamil-punjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-punjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-punjabi/decoding_tamil-punjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2650,7 +2654,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-punjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2664,17 +2668,17 @@ public class translation extends javax.swing.JFrame {
                  }
              /*  else if(index2==11)//Tamil to Manipuri 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2684,7 +2688,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2698,17 +2702,17 @@ public class translation extends javax.swing.JFrame {
                  }
                else if(index2==12)//Tamil to Sanaskrit
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2718,7 +2722,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2738,17 +2742,17 @@ public class translation extends javax.swing.JFrame {
         { 
                if(index2==0)//Telugu to English 
                  {
-                     String fileName = "/home/rajesh/gui_model/telugu-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-english/decoding_telugu-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2758,7 +2762,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2772,17 +2776,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==1)//Telugu to Hindi 
                  {
-                     String fileName = "/home/rajesh/gui_model/telugu-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-hindi/decoding_telugu-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2792,7 +2796,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2806,17 +2810,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==2)//Telugu to Bengali 
                  {
-                     String fileName = "/home/rajesh/gui_model/telugu-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-bengali/decoding_telugu-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2826,7 +2830,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2840,17 +2844,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==3)//Teluguto Gujarati 
                  {
-                     String fileName = "/home/rajesh/gui_model/telugu-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-gujarati/decoding_telugu-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2860,7 +2864,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2874,17 +2878,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==4)//Telugu to Tamil
                  {
-                     String fileName = "/home/rajesh/gui_model/telugu-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-tamil/decoding_telugu-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2894,7 +2898,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2912,17 +2916,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==6)//Telugu to Marathi 
                  {
-                     String fileName = "/home/rajesh/gui_model/telugu-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-marathi/decoding_telugu-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2932,7 +2936,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -2946,17 +2950,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==7)//Telugu to Malayalam 
                  {
-                     String fileName = "/home/rajesh/gui_model/telugu-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-malayalam/decoding_telugu-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -2966,7 +2970,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -2980,17 +2984,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==8)//Telugu to Urdu
                  {
-                     String fileName = "/home/rajesh/gui_model/telugu-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-urdu/decoding_telugu-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3000,7 +3004,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3014,17 +3018,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==9)//Telugu to Konkani 
                  {
-                     String fileName = "/home/rajesh/gui_model/telugu-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-konkani/decoding_telugu-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3034,7 +3038,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3048,17 +3052,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==10)//Telugu to Punjabi 
                  {
-                     String fileName = "/home/rajesh/gui_model/telugu-punjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-punjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-punjabi/decoding_telugu-punjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3068,7 +3072,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-punjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3082,17 +3086,17 @@ public class translation extends javax.swing.JFrame {
                  }
              /*  else if(index2==11)//Telugu to Manipuri 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3102,7 +3106,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3116,17 +3120,17 @@ public class translation extends javax.swing.JFrame {
                  }
                else if(index2==12)//Telugu to Sanaskrit
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3136,7 +3140,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3156,17 +3160,17 @@ public class translation extends javax.swing.JFrame {
         { 
                if(index2==0)//Marathi to English 
                  {
-                     String fileName = "/home/rajesh/gui_model/marathi-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-english/decoding_marathi-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3176,7 +3180,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3190,17 +3194,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==1)//Marathi to Hindi 
                  {
-                     String fileName = "/home/rajesh/gui_model/marathi-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-hindi/decoding_marathi-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3210,7 +3214,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3224,17 +3228,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==2)//Marathi to Bengali 
                  {
-                     String fileName = "/home/rajesh/gui_model/marathi-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-bengali/decoding_marathi-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3244,7 +3248,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3258,17 +3262,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==3)//Marathi to Gujarati 
                  {
-                     String fileName = "/home/rajesh/gui_model/marathi-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-gujarati/decoding_marathi-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3278,7 +3282,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3292,17 +3296,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==4)//Marathi to Tamil
                  {
-                     String fileName = "/home/rajesh/gui_model/marathi-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-tamil/decoding_marathi-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3312,7 +3316,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3326,17 +3330,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==5)//Marathi to Telugu
                  {
-                     String fileName = "/home/rajesh/gui_model/marathi-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-telugu/decoding_marathi-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3346,7 +3350,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3364,17 +3368,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==7)//Marathi to Malayalam 
                  {
-                     String fileName = "/home/rajesh/gui_model/marathi-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-malayalam/decoding_marathi-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3384,7 +3388,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3398,17 +3402,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==8)//Marathi to Urdu
                  {
-                     String fileName = "/home/rajesh/gui_model/marathi-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-urdu/decoding_marathi-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3418,7 +3422,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3432,17 +3436,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==9)//Marathi to Konkani 
                  {
-                     String fileName = "/home/rajesh/gui_model/marathi-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-konkani/decoding_marathi-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3452,7 +3456,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3466,17 +3470,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==10)//Marathi to Punjabi 
                  {
-                     String fileName = "/home/rajesh/gui_model/marathi-punjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-punjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-punjabi/decoding_marathi-punjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3486,7 +3490,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-punjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3500,17 +3504,17 @@ public class translation extends javax.swing.JFrame {
                  }
             /*   else if(index2==11)//Marathi to Manipuri 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3520,7 +3524,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3534,17 +3538,17 @@ public class translation extends javax.swing.JFrame {
                  }
                else if(index2==12)//Marathi to Sanaskrit
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3554,7 +3558,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -3574,17 +3578,17 @@ public class translation extends javax.swing.JFrame {
         { 
                if(index2==0)//Malayalam to English 
                  {
-                     String fileName = "/home/rajesh/gui_model/malayalam-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-english/decoding_malayalam-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3594,7 +3598,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3608,17 +3612,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==1)//Malayalam to Hindi 
                  {
-                     String fileName = "/home/rajesh/gui_model/malayalam-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-hindi/decoding_malayalam-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3628,7 +3632,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3642,17 +3646,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==2)//Malayalam to Bengali 
                  {
-                     String fileName = "/home/rajesh/gui_model/malayalam-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-bengali/decoding_malayalam-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3662,7 +3666,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3676,17 +3680,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==3)//Malayalam to Gujarati 
                  {
-                     String fileName = "/home/rajesh/gui_model/malayalam-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-gujarati/decoding_malayalam-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3696,7 +3700,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3710,17 +3714,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==4)//Malayalam to Tamil
                  {
-                     String fileName = "/home/rajesh/gui_model/malayalam-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-tamil/decoding_malayalam-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3730,7 +3734,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -3744,17 +3748,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==5)//Malayalam to Telugu
                  {
-                     String fileName = "/home/rajesh/gui_model/malayalam-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-telugu/decoding_malayalam-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3764,7 +3768,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                       jTextArea2.read(br, null);
@@ -3778,17 +3782,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==6)//Malayalam to Marathi 
                  {
-                     String fileName = "/home/rajesh/gui_model/malayalam-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-marathi/decoding_malayalam-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3798,7 +3802,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3816,17 +3820,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==8)//Malayalam to Urdu
                  {
-                     String fileName = "/home/rajesh/gui_model/malayalam-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-urdu/decoding_malayalam-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3836,7 +3840,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3850,17 +3854,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==9)//Malayalam to Konkani 
                  {
-                     String fileName = "/home/rajesh/gui_model/malayalam-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-konkani/decoding_malayalam-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3870,7 +3874,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3884,17 +3888,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==10)//Malayalam to Punjabi 
                  {
-                     String fileName = "/home/rajesh/gui_model/malayalam-punjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-punjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-punjabi/decoding_malayalam-punjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3904,7 +3908,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-punjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3918,17 +3922,17 @@ public class translation extends javax.swing.JFrame {
                  }
             /*   else if(index2==11)//Malayalam to Manipuri 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3938,7 +3942,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -3952,17 +3956,17 @@ public class translation extends javax.swing.JFrame {
                  }
                else if(index2==12)//Malayalam to Sanaskrit
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -3972,7 +3976,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea2.read(br, null);
@@ -3992,17 +3996,17 @@ public class translation extends javax.swing.JFrame {
         { 
                if(index2==0)//Urdu to English 
                  {
-                     String fileName = "/home/rajesh/gui_model/urdu-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-english/decoding_urdu-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4012,7 +4016,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4026,17 +4030,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==1)//Urdu to Hindi 
                  {
-                     String fileName = "/home/rajesh/gui_model/urdu-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-hindi/decoding_urdu-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4046,7 +4050,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4060,17 +4064,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==2)//Urdu to Bengali 
                  {
-                     String fileName = "/home/rajesh/gui_model/urdu-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-bengali/decoding_urdu-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4080,7 +4084,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4094,17 +4098,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==3)//Urdu to Gujarati 
                  {
-                     String fileName = "/home/rajesh/gui_model/urdu-gujarati/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-gujarati/decoding_urdu-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4114,7 +4118,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4128,17 +4132,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==4)//Urdu to Tamil
                  {
-                     String fileName = "/home/rajesh/gui_model/urdu-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-tamil/decoding_urdu-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4148,7 +4152,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4162,17 +4166,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==5)//Urdu to Telugu
                  {
-                     String fileName = "/home/rajesh/gui_model/urdu-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-telugu/decoding_urdu-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4182,7 +4186,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4196,17 +4200,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==6)//Urdu to Marathi 
                  {
-                     String fileName = "/home/rajesh/gui_model/urdu-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-marathi/decoding_urdu-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4216,7 +4220,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -4230,17 +4234,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==7)//Urdu to Malayalam 
                  {
-                     String fileName = "/home/rajesh/gui_model/urdu-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-malayalam/decoding_urdu-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4250,7 +4254,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4268,17 +4272,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==9)//Urdu to Konkani 
                  {
-                     String fileName = "/home/rajesh/gui_model/urdu-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                   //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                   //      String line ;
+                   //      ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-konkani/decoding_urdu-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4288,7 +4292,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            jTextArea2.read(br, null);
                       br.close();
@@ -4301,17 +4305,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==10)//Urdu to Punjabi 
                  {
-                     String fileName = "/home/rajesh/gui_model/urdu-punjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-punjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-punjabi/decoding_urdu-punjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4321,7 +4325,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-punjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4335,17 +4339,17 @@ public class translation extends javax.swing.JFrame {
                  }
              /*  else if(index2==11)//Urdu to Manipuri 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4355,7 +4359,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -4369,17 +4373,17 @@ public class translation extends javax.swing.JFrame {
                  }
                else if(index2==12)//Urdu to Sanaskrit
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4389,7 +4393,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -4409,17 +4413,17 @@ public class translation extends javax.swing.JFrame {
         { 
                if(index2==0)//Konkani to English 
                  {
-                     String fileName = "/home/rajesh/gui_model/konkani-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-english/decoding_konkani-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4429,7 +4433,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            jTextArea2.read(br, null);
                       br.close();
@@ -4442,17 +4446,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==1)//Konkani to Hindi 
                  {
-                     String fileName = "/home/rajesh/gui_model/konkani-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-hindi/decoding_konkani-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4462,7 +4466,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4476,17 +4480,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==2)//Konkani to Bengali 
                  {
-                     String fileName = "/home/rajesh/gui_model/konkani-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-bengali/decoding_konkani-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4496,7 +4500,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4510,17 +4514,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==3)//Konkani to Gujarati 
                  {
-                     String fileName = "/home/rajesh/gui_model/konkani-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-gujarati/decoding_konkani-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4530,7 +4534,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4544,17 +4548,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==4)//Konkani to Tamil
                  {
-                     String fileName = "/home/rajesh/gui_model/konkani-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-tamil/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-tamil/decoding_konkani-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4564,7 +4568,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -4578,17 +4582,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==5)//Konkani to Telugu
                  {
-                     String fileName = "/home/rajesh/gui_model/konkani-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-telugu/decoding_konkani-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4598,7 +4602,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4612,17 +4616,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==6)//Konkani to Marathi 
                  {
-                     String fileName = "/home/rajesh/gui_model/konkani-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-marathi/decoding_konkani-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4632,7 +4636,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -4646,17 +4650,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==7)//Konkani to Malayalam 
                  {
-                     String fileName = "/home/rajesh/gui_model/konkani-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                   //      String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-malayalam/decoding_konkani-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4666,7 +4670,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4680,17 +4684,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==8)//Konkani to Urdu
                  {
-                     String fileName = "/home/rajesh/gui_model/konkani-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-urdu/decoding_konkani-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4700,7 +4704,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4718,17 +4722,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==10)//Konkani to Punjabi 
                  {
-                     String fileName = "/home/rajesh/gui_model/konkani-panjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-panjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-panjabi/decoding_konkani-panjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4738,7 +4742,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-panjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -4752,17 +4756,17 @@ public class translation extends javax.swing.JFrame {
                  }
              /*  else if(index2==11)//Konkani to Manipuri 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4772,7 +4776,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -4786,17 +4790,17 @@ public class translation extends javax.swing.JFrame {
                  }
                else if(index2==12)//Konkani to Sanaskrit
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4806,7 +4810,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                       jTextArea2.read(br, null);
@@ -4826,17 +4830,17 @@ public class translation extends javax.swing.JFrame {
         { 
                if(index2==0)//Punjabi to English 
                  {
-                     String fileName = "/home/rajesh/gui_model/punjabi-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-english/decoding_punjabi-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4846,7 +4850,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea2.read(br, null);
@@ -4860,17 +4864,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==1)//Punjabi to Hindi 
                  {
-                     String fileName = "/home/rajesh/gui_model/punjabi-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-hindi/decoding_punjabi-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4880,7 +4884,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4894,17 +4898,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==2)//Punjabi to Bengali 
                  {
-                     String fileName = "/home/rajesh/gui_model/punjabi-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-bengali/decoding_punjabi-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4914,7 +4918,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -4928,17 +4932,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==3)//Punjabi to Gujarati 
                  {
-                     String fileName = "/home/rajesh/gui_model/punjabi-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-gujarati/decoding_punjabi-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4948,7 +4952,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4962,17 +4966,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==4)//Punjabi to Tamil
                  {
-                     String fileName = "/home/rajesh/gui_model/punjabi-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                   //      String line ;
+                   //      ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-tamil/decoding_punjabi-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -4982,7 +4986,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -4996,17 +5000,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==5)//Punjabi to Telugu
                  {
-                     String fileName = "/home/rajesh/gui_model/punjabi-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-telugu/decoding_punjabi-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5016,7 +5020,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -5030,17 +5034,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==6)//Punjabi to Marathi 
                  {
-                     String fileName = "/home/rajesh/gui_model/punjabi-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-marathi/decoding_punjabi-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5050,7 +5054,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -5064,17 +5068,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==7)//Punjabi to Malayalam 
                  {
-                     String fileName = "/home/rajesh/gui_model/punjabi-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-malayalam/decoding_punjabi-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5084,7 +5088,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea2.read(br, null);
@@ -5098,17 +5102,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==8)//Punjabi to Urdu
                  {
-                     String fileName = "/home/rajesh/gui_model/punjabi-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-urdu/decoding_punjabi-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5118,7 +5122,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -5132,17 +5136,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==9)//Punjabi to Konkani 
                  {
-                     String fileName = "/home/rajesh/gui_model/punjabi-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-konkani/decoding_punjabi-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5152,7 +5156,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -5170,17 +5174,17 @@ public class translation extends javax.swing.JFrame {
                  }
              /*  else if(index2==11)//Punjabi to Manipuri 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5190,7 +5194,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea2.read(br, null);
@@ -5204,17 +5208,17 @@ public class translation extends javax.swing.JFrame {
                  }
                else if(index2==12)//Punjabi to Sanaskrit
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5224,7 +5228,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea2.read(br, null);
@@ -5244,17 +5248,17 @@ public class translation extends javax.swing.JFrame {
         { 
                if(index2==0)//Manipuri to English 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5264,7 +5268,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5283,17 +5287,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==1)//Manipuri to Hindi 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5303,7 +5307,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5322,17 +5326,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==2)//Manipuri to Bengali 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5342,7 +5346,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5361,17 +5365,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==3)//Manipuri to Gujarati 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5381,7 +5385,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5400,17 +5404,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==4)//Manipuri to Tamil
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5420,7 +5424,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5439,17 +5443,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==5)//Manipuri to Telugu
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5459,7 +5463,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5478,17 +5482,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==6)//Manipuri to Marathi 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5498,7 +5502,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5517,17 +5521,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==7)//Manipuri to Malayalam 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5537,7 +5541,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5556,17 +5560,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==8)//Manipuri to Urdu
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5576,7 +5580,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5595,17 +5599,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==9)//Manipuri to Konkani 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5615,7 +5619,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5634,17 +5638,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==10)//Manipuri to Punjabi 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5654,7 +5658,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5677,17 +5681,17 @@ public class translation extends javax.swing.JFrame {
                  }
                else if(index2==12)//Manipuri to Sanaskrit
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5697,7 +5701,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5722,17 +5726,17 @@ public class translation extends javax.swing.JFrame {
         { 
                if(index2==0)//Sanskrit to English 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5742,7 +5746,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5761,17 +5765,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==1)//Sanskrit to Hindi 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5781,7 +5785,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5800,17 +5804,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==2)//Sanskrit to Bengali 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5820,7 +5824,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5839,17 +5843,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==3)//Sanskrit to Gujarati 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5859,7 +5863,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5878,17 +5882,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==4)//Sanskrit to Tamil
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5898,7 +5902,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5917,17 +5921,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==5)//Sanskrit to Telugu
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5937,7 +5941,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5956,17 +5960,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==6)//Sanskrit to Marathi 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -5976,7 +5980,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -5995,17 +5999,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==7)//Sanskrit to Malayalam 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6015,7 +6019,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -6034,17 +6038,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==8)//Sanskrit to Urdu
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6054,7 +6058,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -6073,17 +6077,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==9)//Sanskrit to Konkani 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6093,7 +6097,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -6112,17 +6116,17 @@ public class translation extends javax.swing.JFrame {
                  }
                 else if(index2==10)//Sanskrit to Punjabi 
                  {
-                         String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                         String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6132,7 +6136,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -6151,17 +6155,17 @@ public class translation extends javax.swing.JFrame {
                  }
                else if(index2==11)//Sanskrit to Manipuri 
                  {
-                     String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                     String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6171,7 +6175,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    while((str = br.readLine())!=null)
@@ -6221,17 +6225,17 @@ public class translation extends javax.swing.JFrame {
                    
                   else if (index1==1)//Translate Hindi to English
                    {
-                      String fileName = "/home/rajesh/gui_model/hindi-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-english/decoding_hindi-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6241,7 +6245,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea3.read(br, null);
@@ -6255,17 +6259,17 @@ public class translation extends javax.swing.JFrame {
                     }
                   else if(index1==2)//Translate Bengali to English
                   {  
-                      String fileName = "/home/rajesh/gui_model/bengali-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                        // String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-english/decoding_bengali-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6275,7 +6279,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea3.read(br, null);
@@ -6291,17 +6295,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==3)//Translate Gujarati to English
                   {
-                       String fileName = "/home/rajesh/gui_model/gujarati-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-english/decoding_gujarati-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6311,7 +6315,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea3.read(br, null);
@@ -6326,17 +6330,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==4)//Translate Tamil to English
                   { 
-                      String fileName = "/home/rajesh/gui_model/tamil-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-english/decoding_tamil-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6346,7 +6350,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea3.read(br, null);
@@ -6362,17 +6366,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==5)//Translate Telugu to English
                    { 
-                       String fileName = "/home/rajesh/gui_model/telugu-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                       //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-english/decoding_telugu-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6382,7 +6386,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea3.read(br, null);
@@ -6399,17 +6403,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==6)//Translate Marathi to English
                       
                   {
-                  String fileName = "/home/rajesh/gui_model/marathi-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                 // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                 //        String line ;
+                 //        ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-english/decoding_marathi-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6419,7 +6423,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea3.read(br, null);
@@ -6434,17 +6438,17 @@ public class translation extends javax.swing.JFrame {
                    }
                   else if(index1==7)//Translate Malayalam to English
                   {
-                     String fileName = "/home/rajesh/gui_model/malayalam-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                   //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                   //      String line ;
+                   //      ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-english/decoding_malayalam-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6454,7 +6458,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea3.read(br, null);
@@ -6468,17 +6472,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==8)//Translate Urdu to English
                   { 
-                      String fileName = "/home/rajesh/gui_model/urdu-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-english/decoding_urdu-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6488,7 +6492,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea3.read(br, null);
@@ -6503,17 +6507,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==9)//Translate Konkani to English
                   {
-                  String fileName = "/home/rajesh/gui_model/konkani-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                  //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                   //      String line ;
+                   //      ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-english/decoding_konkani-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6523,7 +6527,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea3.read(br, null);
@@ -6538,17 +6542,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if (index1==10)//Translate Punjabi to english 
                   {
-                      String fileName = "/home/rajesh/gui_model/punjabi-english/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-english/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-english/decoding_punjabi-english.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6558,7 +6562,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-english/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea3.read(br, null);
@@ -6573,17 +6577,17 @@ public class translation extends javax.swing.JFrame {
                  /*
                   else if (index1==11)//Translate Manipuri to English
                   {
-                    String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                    String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6593,7 +6597,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea3.read(br, null);
@@ -6607,17 +6611,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==12)//Translate Sanskrit to English
                   {
-                      String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                      String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6627,7 +6631,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea3.read(br, null);
@@ -6667,17 +6671,17 @@ public class translation extends javax.swing.JFrame {
         else {
                   if(index1==0)//Translate English to Hindi
                   { 
-                      String fileName = "/home/rajesh/gui_model/english-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                        // String line ;
+                         //ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/english-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/english-hindi/decoding_english-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6687,7 +6691,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/english-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
                   jTextArea4.read(br, null);
                   br.close();
@@ -6706,17 +6710,17 @@ public class translation extends javax.swing.JFrame {
                     }
                   else if(index1==2)//Translate Bengali to Hindi
                   {  
-                      String fileName = "/home/rajesh/gui_model/bengali-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-hindi/decoding_bengali-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6726,7 +6730,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea4.read(br, null);
@@ -6742,17 +6746,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==3)//Translate Gujarati to Hindi
                   {
-                       String fileName = "/home/rajesh/gui_model/gujarati-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-hindi/decoding_gujarati-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6762,7 +6766,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea4.read(br, null);
@@ -6778,17 +6782,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==4)//Translate Tamil to Hindi 
                   { 
                        
-                      String fileName = "/home/rajesh/gui_model/tamil-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-hindi/decoding_tamil-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6798,7 +6802,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea4.read(br, null);
@@ -6814,17 +6818,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==5)//Translate Telugu to Hindi
                    { 
                        
-                       String fileName = "/home/rajesh/gui_model/telugu-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-hindi/decoding_telugu-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6834,7 +6838,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea4.read(br, null);
@@ -6850,17 +6854,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==6)//Translate Marathi to Hindi
                       
                   {
-                       String fileName = "/home/rajesh/gui_model/marathi-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-hindi/decoding_marathi-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6870,7 +6874,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea4.read(br, null);
@@ -6885,17 +6889,17 @@ public class translation extends javax.swing.JFrame {
                    }
                   else if(index1==7)//Translate Malayalam to Hindi
                   {
-                     String fileName = "/home/rajesh/gui_model/malayalam-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-hindi/decoding_malayalam-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6905,7 +6909,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea4.read(br, null);
@@ -6919,17 +6923,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==8)//Translate Urdu to Hindi
                   { 
-                      String fileName = "/home/rajesh/gui_model/urdu-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-hindi/decoding_urdu-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6939,7 +6943,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea4.read(br, null);
@@ -6954,17 +6958,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==9)//Translate Konkani to Hindi
                   {
-                         String fileName = "/home/rajesh/gui_model/konkani-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                       //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-hindi/decoding_konkani-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -6974,7 +6978,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea4.read(br, null);
@@ -6989,17 +6993,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if (index1==10)//Translate Punjabi to Hindi 
                   {
-                        String fileName = "/home/rajesh/gui_model/punjabi-hindi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                       // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-hindi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-hindi/decoding_punjabi-hindi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7009,7 +7013,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-hindi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea4.read(br, null);
@@ -7024,17 +7028,17 @@ public class translation extends javax.swing.JFrame {
                  /*
                   else if (index1==11)//Translate Manipuri to Hindi
                   {
-                    String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                    String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7044,7 +7048,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea4.read(br, null);
@@ -7058,17 +7062,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==12)//Translate Sanskrit to Hindi
                   {
-                        String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                        String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7078,7 +7082,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea4.read(br, null);
@@ -7116,17 +7120,17 @@ public class translation extends javax.swing.JFrame {
         else {
                   if(index1==0)//Translate English to Bengali
                   { 
-                      //String fileName = "/home/rajesh/gui_model/eng-bengali/test.out.hi.text";
-                        // String line ;
-                         //ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-bengali/decoding_eng-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7136,7 +7140,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea5.read(br, null);
@@ -7151,17 +7155,17 @@ public class translation extends javax.swing.JFrame {
                    
                   else if (index1==1)//Translate Hindi to Bengali
                    {
-                       String fileName = "/home/rajesh/gui_model/hindi-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-bengali/decoding_hindi-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7171,7 +7175,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea5.read(br, null);
@@ -7191,17 +7195,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==3)//Translate Gujarati to Bengali
                   {
-                       String fileName = "/home/rajesh/gui_model/gujarati-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-bengali/decoding_gujarati-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7211,7 +7215,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea5.read(br, null);
@@ -7226,17 +7230,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==4)//Translate Tamil to Bengali
                   { 
-                       String fileName = "/home/rajesh/gui_model/tamil-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                       //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-bengali/decoding_tamil-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7246,7 +7250,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea5.read(br, null);
@@ -7262,17 +7266,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==5)//Translate Telugu to Bengali
                    { 
-                       String fileName = "/home/rajesh/gui_model/telugu-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                       //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-bengali/decoding_telugu-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7282,7 +7286,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea5.read(br, null);
@@ -7299,17 +7303,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==6)//Translate Marathi to Bengali
                       
                   {
-                         String fileName = "/home/rajesh/gui_model/marathi-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                        // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                        // String line ;
+                        // ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-bengali/decoding_marathi-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7319,7 +7323,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea5.read(br, null);
@@ -7334,17 +7338,17 @@ public class translation extends javax.swing.JFrame {
                    }
                   else if(index1==7)//Translate Malayalam to Bengali
                   {
-                     String fileName = "/home/rajesh/gui_model/malayalam-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-bengali/decoding_malayalam-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7354,7 +7358,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea5.read(br, null);
@@ -7368,17 +7372,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==8)//Translate Urdu to Bengali
                   { 
-                      String fileName = "/home/rajesh/gui_model/urdu-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-bengali/decoding_urdu-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7388,7 +7392,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea5.read(br, null);
@@ -7403,17 +7407,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==9)//Translate Konkani to Bengali
                   {    
-                        String fileName = "/home/rajesh/gui_model/konkani-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                       // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-bengali/decoding_konkani-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7423,7 +7427,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea5.read(br, null);
@@ -7439,17 +7443,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if (index1==10)//Translate Punjabi to Bengali 
                   {
-                      String fileName = "/home/rajesh/gui_model/punjabi-bengali/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-bengali/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-bengali/decoding_punjabi-bengali.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7459,7 +7463,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-bengali/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea5.read(br, null);
@@ -7474,17 +7478,17 @@ public class translation extends javax.swing.JFrame {
                  /*
                   else if (index1==11)//Translate Manipuri to Bengali
                   {
-                    String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                    String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7494,7 +7498,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea5.read(br, null);
@@ -7508,17 +7512,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==12)//Translate Sanskrit to Bengali
                   {
-                        String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                        String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7528,7 +7532,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea5.read(br, null);
@@ -7566,17 +7570,17 @@ public class translation extends javax.swing.JFrame {
         else {
                   if(index1==0)//Translate English to Gujarati
                   { 
-                      String fileName = "/home/rajesh/gui_model/eng-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                        // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                        // String line ;
+                        // ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-gujarati/decoding_eng-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7586,7 +7590,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea6.read(br, null);
@@ -7601,17 +7605,17 @@ public class translation extends javax.swing.JFrame {
                    
                   else if (index1==1)//Translate Hindi to Gujarati
                    {  
-                      String fileName = "/home/rajesh/gui_model/hindi-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                        // String line ;
+                       ///  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-gujarati/decoding_hindi-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7621,7 +7625,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea6.read(br, null);
@@ -7636,17 +7640,17 @@ public class translation extends javax.swing.JFrame {
                     }
                   else if(index1==2)//Translate Bengali to Gujarati
                   {  
-                      String fileName = "/home/rajesh/gui_model/bengali-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-gujarati/decoding_bengali-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7656,7 +7660,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea6.read(br, null);
@@ -7677,17 +7681,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==4)//Translate Tamil to Gujarati
                   { 
-                       String fileName = "/home/rajesh/gui_model/tamil-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                       //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-gujarati/decoding_tamil-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7697,7 +7701,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea6.read(br, null);
@@ -7713,17 +7717,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==5)//Translate Telugu to Gujarati
                    { 
-                       String fileName = "/home/rajesh/gui_model/telugu-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-gujarati/decoding_telugu-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7733,7 +7737,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea6.read(br, null);
@@ -7750,17 +7754,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==6)//Translate Marathi to Gujarati
                       
                   {
-                         String fileName = "/home/rajesh/gui_model/marathi-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                       //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-gujarati/decoding_marathi-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7770,7 +7774,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea6.read(br, null);
@@ -7785,17 +7789,17 @@ public class translation extends javax.swing.JFrame {
                    }
                   else if(index1==7)//Translate Malayalam to Gujarati
                   {    
-                      String fileName = "/home/rajesh/gui_model/malayalam-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-gujarati/decoding_malayalam-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7805,7 +7809,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea6.read(br, null);
@@ -7820,17 +7824,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==8)//Translate Urdu to Gujarati
                   { 
-                      String fileName = "/home/rajesh/gui_model/urdu-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                   //      String line ;
+                   //      ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-gujarati/decoding_urdu-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7840,7 +7844,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea6.read(br, null);
@@ -7855,17 +7859,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==9)//Translate Konkani to Gujarati
                   {
-                            String fileName = "/home/rajesh/gui_model/konkani-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //      String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-gujarati/decoding_konkani-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7875,7 +7879,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea6.read(br, null);
@@ -7890,17 +7894,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if (index1==10)//Translate Punjabi to Gujarati 
                   {
-                      String fileName = "/home/rajesh/gui_model/punjabi-gujarati/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-gujarati/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-gujaratil/decoding_punjabi-gujarati.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_calll/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7910,7 +7914,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-gujarati/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea6.read(br, null);
@@ -7925,17 +7929,17 @@ public class translation extends javax.swing.JFrame {
                 /*
                   else if (index1==11)//Translate Manipuri to Gujarati
                   {
-                    String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                    String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7945,7 +7949,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea6.read(br, null);
@@ -7959,17 +7963,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==12)//Translate Sanskrit to Gujarati
                   {
-                      String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                      String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -7979,7 +7983,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea6.read(br, null);
@@ -8018,17 +8022,17 @@ public class translation extends javax.swing.JFrame {
         else {
                   if(index1==0)//Translate English to Tamil
                   { 
-                      String fileName = "/home/rajesh/gui_model/eng-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-tamil/decoding_eng-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8038,7 +8042,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea7.read(br, null);
@@ -8053,17 +8057,17 @@ public class translation extends javax.swing.JFrame {
                    
                   else if (index1==1)//Translate Hindi to Tamil
                    {
-                      String fileName = "/home/rajesh/gui_model/hindi-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-tamil/decoding_hindi-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8073,7 +8077,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea7.read(br, null);
@@ -8087,17 +8091,17 @@ public class translation extends javax.swing.JFrame {
                     }
                   else if(index1==2)//Translate Bengali to Tamil
                   {  
-                      String fileName = "/home/rajesh/gui_model/bengali-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-tamil/decoding_bengali-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8107,7 +8111,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea7.read(br, null);
@@ -8123,17 +8127,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==3)//Translate Gujarati to Tamil
                   {
-                       String fileName = "/home/rajesh/gui_model/gujarati-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-tamil/decoding_gujarati-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8143,7 +8147,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea7.read(br, null);
@@ -8164,17 +8168,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==5)//Translate Telugu to Tamil
                    { 
-                       String fileName = "/home/rajesh/gui_model/telugu-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-tamil/decoding_telugu-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8184,7 +8188,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea7.read(br, null);
@@ -8201,17 +8205,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==6)//Translate Marathi to Tamil
                       
                   {
-                       String fileName = "/home/rajesh/gui_model/marathi-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_e/home/rajesh/gui_model/marathi-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_e/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-tamil/decoding_marathi-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8221,7 +8225,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea7.read(br, null);
@@ -8236,17 +8240,17 @@ public class translation extends javax.swing.JFrame {
                    }
                   else if(index1==7)//Translate Malayalam to Tamil
                   {
-                     String fileName = "/home/rajesh/gui_model/malayalam-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-tamil/decoding_malayalam-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8256,7 +8260,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea7.read(br, null);
@@ -8270,17 +8274,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==8)//Translate Urdu to Tamil
                   { 
-                      String fileName = "/home/rajesh/gui_model/urdu-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-tamil/decoding_urdu-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8290,7 +8294,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea7.read(br, null);
@@ -8305,17 +8309,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==9)//Translate Konkani to Tamil
                   {   
-                      String fileName = "/home/rajesh/gui_model/konkani-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-tamil/decoding_konkani-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8325,7 +8329,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea7.read(br, null);
@@ -8341,17 +8345,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if (index1==10)//Translate Punjabi to Tamil 
                   {   
-                      String fileName = "/home/rajesh/gui_model/punjabi-tamil/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-tamil/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-tamil/decoding_punjabi-tamil.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8361,7 +8365,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-tamil/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea7.read(br, null);
@@ -8377,17 +8381,17 @@ public class translation extends javax.swing.JFrame {
                  /*
                   else if (index1==11)//Translate Manipuri to Tamil
                   {
-                    String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                    String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8397,7 +8401,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea7.read(br, null);
@@ -8411,17 +8415,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==12)//Translate Sanskrit to Tamil
                   {
-                        String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                        String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8431,7 +8435,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea7.read(br, null);
@@ -8469,17 +8473,17 @@ public class translation extends javax.swing.JFrame {
         else {
                   if(index1==0)//Translate English to Telugu
                   { 
-                      String fileName = "/home/rajesh/gui_model/eng-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-telugu/decoding_eng-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8489,7 +8493,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea8.read(br, null);
@@ -8504,17 +8508,17 @@ public class translation extends javax.swing.JFrame {
                    
                   else if (index1==1)//Translate Hindi to Telugu
                    {
-                      String fileName = "/home/rajesh/gui_model/hindi-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-telugu/decoding_hindi-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8524,7 +8528,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea8.read(br, null);
@@ -8539,17 +8543,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==2)//Translate Bengali to Telugu
                   {  
                       
-                      String fileName = "/home/rajesh/gui_model/bengali-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-telugu/decoding_bengali-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8559,7 +8563,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea8.read(br, null);
@@ -8574,17 +8578,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==3)//Translate Gujarati to Telugu
                   {
-                       String fileName = "/home/rajesh/gui_model/gujarati-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                       //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-telugu/decoding_gujarati-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8594,7 +8598,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea8.read(br, null);
@@ -8609,17 +8613,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==4)//Translate Tamil to Telugu
                   { 
-                       String fileName = "/home/rajesh/gui_model/tamil-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-telugu/decoding_tamil-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8629,7 +8633,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea8.read(br, null);
@@ -8652,17 +8656,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==6)//Translate Marathi to Telugu
                       
                   {
-                      String fileName = "/home/rajesh/gui_model/marathi-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-telugu/decoding_marathi-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8672,7 +8676,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea8.read(br, null);
@@ -8687,17 +8691,17 @@ public class translation extends javax.swing.JFrame {
                    }
                   else if(index1==7)//Translate Malayalam to Telugu
                   {
-                     String fileName = "/home/rajesh/gui_model/malayalam-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                   //      String line ;
+                   //      ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-telugu/decoding_malayalam-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8707,7 +8711,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea8.read(br, null);
@@ -8721,17 +8725,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==8)//Translate Urdu to Telugu
                   { 
-                      String fileName = "/home/rajesh/gui_model/urdu-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-telugu/decoding_urdu-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8741,7 +8745,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea8.read(br, null);
@@ -8756,17 +8760,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==9)//Translate Konkani to Telugu
                   {   
-                      String fileName = "/home/rajesh/gui_model/konkani-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-telugu/decoding_konkani-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8776,7 +8780,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea8.read(br, null);
@@ -8792,17 +8796,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if (index1==10)//Translate Punjabi to Telugu
                   {
-                      String fileName = "/home/rajesh/gui_model/punjabi-telugu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-telugu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-telugu/decoding_punjabi-telugu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8812,7 +8816,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-telugu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea8.read(br, null);
@@ -8826,17 +8830,17 @@ public class translation extends javax.swing.JFrame {
                    }
              /*     else if (index1==11)//Translate Manipuri to Telugu
                   {
-                    String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                    String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8846,7 +8850,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea8.read(br, null);
@@ -8860,17 +8864,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==12)//Translate Sanskrit to Telugu
                   {
-                      String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                      String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8880,7 +8884,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                    jTextArea8.read(br, null);
@@ -8918,17 +8922,17 @@ public class translation extends javax.swing.JFrame {
         else {
                   if(index1==0)//Translate English to Marathi
                   { 
-                      String fileName = "/home/rajesh/gui_model/eng-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-marathi/decoding_eng-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8938,7 +8942,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea9.read(br, null);
@@ -8953,17 +8957,17 @@ public class translation extends javax.swing.JFrame {
                    
                   else if (index1==1)//Translate Hindi to Marathi
                    {
-                      String fileName = "/home/rajesh/gui_model/hindi-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      ///   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-marathi/decoding_hindi-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -8973,7 +8977,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea9.read(br, null);
@@ -8987,17 +8991,17 @@ public class translation extends javax.swing.JFrame {
                     }
                   else if(index1==2)//Translate Bengali to Marathi
                   {  
-                      String fileName = "/home/rajesh/gui_model/bengali-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-marathi/decoding_bengali-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9007,7 +9011,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea9.read(br, null);
@@ -9023,17 +9027,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==3)//Translate Gujarati to Marathi
                   {
-                       String fileName = "/home/rajesh/gui_model/gujarati-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-marathi/decoding_gujarati-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9043,7 +9047,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea9.read(br, null);
@@ -9059,17 +9063,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==4)//Translate Tamil to Marathi
                   { 
                        
-                      String fileName = "/home/rajesh/gui_model/tamil-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-marathi/decoding_tamil-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9079,7 +9083,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea9.read(br, null);
@@ -9094,17 +9098,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==5)//Translate Telugu to Marathi
                    { 
-                       String fileName = "/home/rajesh/gui_model/telugu-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-marathi/decoding_telugu-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9114,7 +9118,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea9.read(br, null);
@@ -9136,17 +9140,17 @@ public class translation extends javax.swing.JFrame {
                    }
                   else if(index1==7)//Translate Malayalam to Marathi
                   {
-                     String fileName = "/home/rajesh/gui_model/malayalam-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-marathi/decoding_malayalam-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9156,7 +9160,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea9.read(br, null);
@@ -9170,17 +9174,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==8)//Translate Urdu to Marathi
                   { 
-                      String fileName = "/home/rajesh/gui_model/urdu-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-marathi/decoding_urdu-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9190,7 +9194,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea9.read(br, null);
@@ -9205,17 +9209,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==9)//Translate Konkani to Marathi
                   {
-                       String fileName = "/home/rajesh/gui_model/konkani-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-marathi/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9225,7 +9229,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea9.read(br, null);
@@ -9240,17 +9244,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if (index1==10)//Translate Punjabi to Marathi
                   {
-                      String fileName = "/home/rajesh/gui_model/punjabi-marathi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-marathi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-marathi/decoding_punjabi-marathi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9260,7 +9264,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-marathi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea9.read(br, null);
@@ -9274,17 +9278,17 @@ public class translation extends javax.swing.JFrame {
                    }
                 /*  else if (index1==11)//Translate Manipuri to Marathi
                   {
-                    String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                    String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9294,7 +9298,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea9.read(br, null);
@@ -9308,17 +9312,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==12)//Translate Sanskrit to Marathi
                   {
-                      String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                      String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9328,7 +9332,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea9.read(br, null);
@@ -9366,17 +9370,17 @@ public class translation extends javax.swing.JFrame {
         else {
                   if(index1==0)//Translate English to Malayalam
                   { 
-                      String fileName = "/home/rajesh/gui_model/eng-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-malayalam/decoding_eng-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9386,7 +9390,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea10.read(br, null);
@@ -9401,17 +9405,17 @@ public class translation extends javax.swing.JFrame {
                    
                   else if (index1==1)//Translate Hindi to Malayalam
                    {
-                      String fileName = "/home/rajesh/gui_model/hindi-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-malayalam/decoding_hindi-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9421,7 +9425,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea10.read(br, null);
@@ -9436,17 +9440,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==2)//Translate Bengali to Malayalam
                   {  
                       
-                      String fileName = "/home/rajesh/gui_model/bengali-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-malayalam/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9456,7 +9460,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea10.read(br, null);
@@ -9471,17 +9475,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==3)//Translate Gujarati to Malayalam
                   {
-                       String fileName = "/home/rajesh/gui_model/gujarati-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-malayalam/decoding_gujarati-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9491,7 +9495,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea10.read(br, null);
@@ -9506,17 +9510,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==4)//Translate Tamil to Malayalam
                   { 
-                       String fileName = "/home/rajesh/gui_model/tamil-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-malayalam/decoding_tamil-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9526,7 +9530,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea10.read(br, null);
@@ -9542,17 +9546,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==5)//Translate Telugu to Malayalam
                    { 
-                       String fileName = "/home/rajesh/gui_model/telugu-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-malayalam/decoding_telugu-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9562,7 +9566,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea10.read(br, null);
@@ -9579,17 +9583,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==6)//Translate Marathi to Malayalam
                       
                   {
-                  String fileName = "/home/rajesh/gui_model/marathi-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                 // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                 //        String line ;
+                 //        ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-malayalam/decoding_marathi-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9599,7 +9603,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea10.read(br, null);
@@ -9618,17 +9622,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==8)//Translate Urdu to Malayalam
                   { 
-                      String fileName = "/home/rajesh/gui_model/urdu-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     ////    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-malayalam/decoding_urdu-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9638,7 +9642,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea10.read(br, null);
@@ -9653,17 +9657,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==9)//Translate Konkani to Malayalam
                   {
-                  String fileName = "/home/rajesh/gui_model/konkani-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                 // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                 //        String line ;
+                 //        ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-malayalam/decoding_konkani-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9673,7 +9677,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea10.read(br, null);
@@ -9688,17 +9692,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if (index1==10)//Translate Punjabi to Malayalam
                   {
-                      String fileName = "/home/rajesh/gui_model/punjabi-malayalam/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-malayalam/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-malayalam/decoding_punjabi-malayalam.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9708,7 +9712,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-malayalam/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea10.read(br, null);
@@ -9722,17 +9726,17 @@ public class translation extends javax.swing.JFrame {
                    }
                 /*  else if (index1==11)//Translate Manipuri to Malayalam
                   {
-                    String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                    String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9742,7 +9746,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea10.read(br, null);
@@ -9756,17 +9760,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==12)//Translate Sanskrit to Malayalam
                   {
-                      String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                      String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9776,7 +9780,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea10.read(br, null);
@@ -9814,17 +9818,17 @@ public class translation extends javax.swing.JFrame {
         else {
                   if(index1==0)//Translate English to Urdu
                   { 
-                      String fileName = "/home/rajesh/gui_model/eng-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-urdu/decoding_eng-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9834,7 +9838,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea11.read(br, null);
@@ -9849,17 +9853,17 @@ public class translation extends javax.swing.JFrame {
                    
                   else if (index1==1)//Translate Hindi to Urdu
                    {
-                      String fileName = "/home/rajesh/gui_model/hindi-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-urdu/decoding_hindi-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9869,7 +9873,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea11.read(br, null);
@@ -9883,17 +9887,17 @@ public class translation extends javax.swing.JFrame {
                     }
                   else if(index1==2)//Translate Bengali to Urdu
                   {  
-                      String fileName = "/home/rajesh/gui_model/bengali-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-urdu/decoding_bengali-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9903,7 +9907,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea11.read(br, null);
@@ -9919,17 +9923,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==3)//Translate Gujarati to Urdu
                   {
-                       String fileName = "/home/rajesh/gui_model/gujarati-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-urdu/decoding_gujarati-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9939,7 +9943,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea11.read(br, null);
@@ -9954,17 +9958,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==4)//Translate Tamil to Urdu
                   { 
-                       String fileName = "/home/rajesh/gui_model/tamil-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-urdu/decoding_tamil-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -9974,7 +9978,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea11.read(br, null);
@@ -9990,17 +9994,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==5)//Translate Telugu to Urdu
                    { 
-                       String fileName = "/home/rajesh/gui_model/telugu-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-urdu/decoding_telugu-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10010,7 +10014,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea11.read(br, null);
@@ -10027,17 +10031,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==6)//Translate Marathi to Urdu
                       
                   {
-                     String fileName = "/home/rajesh/gui_model/marathi-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                     ///    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-urdu/decoding_marathi-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10047,7 +10051,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea11.read(br, null);
@@ -10062,17 +10066,17 @@ public class translation extends javax.swing.JFrame {
                    }
                   else if(index1==7)//Translate Malayalam to Urdu
                   {
-                     String fileName = "/home/rajesh/gui_model/malayalam-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    ///     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-urdu/decoding_malayalam-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10082,7 +10086,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea11.read(br, null);
@@ -10101,17 +10105,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==9)//Translate Konkani to Urdu
                   {
-                        String fileName = "/home/rajesh/gui_model/konkani-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                       // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                       //  String line ;
+                       //  ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-urdu/decoding_konkani-urdu.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10121,7 +10125,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea11.read(br, null);
@@ -10136,17 +10140,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if (index1==10)//Translate Punjabi to Urdu 
                   {
-                      String fileName = "/home/rajesh/gui_model/punjabi-urdu/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-urdu/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-urdu/decoding_punjabi-urdu.sh ");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh ");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10156,7 +10160,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-urdu/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea11.read(br, null);
@@ -10170,17 +10174,17 @@ public class translation extends javax.swing.JFrame {
                    }
               /*    else if (index1==11)//Translate Manipuri to Urdu
                   {
-                    String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                    String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10190,7 +10194,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea11.read(br, null);
@@ -10204,17 +10208,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==12)//Translate Sanskrit to Urdu
                   {
-                      String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                      String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10224,7 +10228,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea11.read(br, null);
@@ -10262,17 +10266,17 @@ public class translation extends javax.swing.JFrame {
         else {
                   if(index1==0)//Translate English to Konkani
                   { 
-                      String fileName = "/home/rajesh/gui_model/eng-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-konkani/decoding_eng-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10282,7 +10286,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea12.read(br, null);
@@ -10297,17 +10301,17 @@ public class translation extends javax.swing.JFrame {
                    
                   else if (index1==1)//Translate Hindi to Konkani
                    {
-                      String fileName = "/home/rajesh/gui_model/hindi-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-konkani/decoding_hindi-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10317,7 +10321,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea12.read(br, null);
@@ -10332,17 +10336,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==2)//Translate Bengali to Konkani
                   {  
                       
-                      String fileName = "/home/rajesh/gui_model/bengali-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-konkani/decoding_bengali-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10352,7 +10356,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea12.read(br, null);
@@ -10367,17 +10371,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==3)//Translate Gujarati to Konkani
                   {
-                       String fileName = "/home/rajesh/gui_model/gujarati-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-konkani/decoding_gujarati-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10387,7 +10391,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea12.read(br, null);
@@ -10402,17 +10406,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==4)//Translate Tamil to Konkani
                   { 
-                       String fileName = "/home/rajesh/gui_model/tamil-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-konkani/decoding_tamil-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10422,7 +10426,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea12.read(br, null);
@@ -10438,17 +10442,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==5)//Translate Telugu to Konkani
                    { 
-                       String fileName = "/home/rajesh/gui_model/telugu-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-konkani/decoding_telugu-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10458,7 +10462,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea12.read(br, null);
@@ -10475,17 +10479,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==6)//Translate Marathi to Konkani
                       
                   {
-                      String fileName = "/home/rajesh/gui_model/marathi-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                     ///    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-konkani/decoding_marathi-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10495,7 +10499,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea12.read(br, null);
@@ -10510,17 +10514,17 @@ public class translation extends javax.swing.JFrame {
                    }
                   else if(index1==7)//Translate Malayalam to Konkani
                   {
-                     String fileName = "/home/rajesh/gui_model/malayalam-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                   //  String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                   //      String line ;
+                   //      ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-konkani/decoding_malayalam-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10530,7 +10534,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea12.read(br, null);
@@ -10544,17 +10548,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==8)//Translate Urdu to Konkani
                   { 
-                      String fileName = "/home/rajesh/gui_model/urdu-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-konkani/decoding_urdu-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10564,7 +10568,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea12.read(br, null);
@@ -10584,17 +10588,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if (index1==10)//Translate Punjabi to Konkani 
                   {
-                      String fileName = "/home/rajesh/gui_model/punjabi-konkani/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/punjabi-konkani/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/punjabi-konkani/decoding_punjabi-konkani.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10604,7 +10608,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/punjabi-konkani/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea12.read(br, null);
@@ -10618,17 +10622,17 @@ public class translation extends javax.swing.JFrame {
                    }
               /*    else if (index1==11)//Translate Manipuri to Konkani
                   {
-                    String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                    String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10638,7 +10642,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea12.read(br, null);
@@ -10652,17 +10656,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==12)//Translate Sanskrit to Konkani
                   {
-                      String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                      String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10672,7 +10676,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea12.read(br, null);
@@ -10710,17 +10714,17 @@ public class translation extends javax.swing.JFrame {
         else {
                   if(index1==0)//Translate English to Punjabi
                   { 
-                      String fileName = "/home/rajesh/gui_model/eng-panjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-panjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/eng-panjabi/decoding_eng-panjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10730,7 +10734,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/eng-panjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea13.read(br, null);
@@ -10745,17 +10749,17 @@ public class translation extends javax.swing.JFrame {
                    
                   else if (index1==1)//Translate Hindi to Punjabi
                    {
-                      String fileName = "/home/rajesh/gui_model/hindi-panjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/hindi-panjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/hindi-panjabi/decoding_hindi-panjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10765,7 +10769,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/hindi-panjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea13.read(br, null);
@@ -10779,17 +10783,17 @@ public class translation extends javax.swing.JFrame {
                     }
                   else if(index1==2)//Translate Bengali to Punjabi
                   {  
-                      String fileName = "/home/rajesh/gui_model/bengali-punjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/bengali-punjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/bengali-punjabi/decoding_bengali-punjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10799,7 +10803,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/bengali-punjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                  jTextArea13.read(br, null);
@@ -10815,17 +10819,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==3)//Translate Gujarati to Punjabi
                   {
-                       String fileName = "/home/rajesh/gui_model/gujarati-panjabi/test.out.hi.text";
+                       String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/gujarati-panjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/gujarati-panjabi/decoding_gujarati-panjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10835,7 +10839,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/gujarati-panjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea13.read(br, null);
@@ -10851,17 +10855,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==4)//Translate Tamil to Punjabi
                   { 
                        
-                      String fileName = "/home/rajesh/gui_model/tamil-punjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/tamil-punjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/tamil-punjabi/decoding_tamil-punjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10871,7 +10875,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/tamil-punjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea13.read(br, null);
@@ -10887,17 +10891,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==5)//Translate Telugu to Punjabi
                    { 
                        
-                       String fileName = "/home/rajesh/gui_model/telugu-punjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                      //   String line ;
+                      //   ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/telugu-punjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/telugu-punjabi/decoding_telugu-punjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10907,7 +10911,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/telugu-punjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea13.read(br, null);
@@ -10923,17 +10927,17 @@ public class translation extends javax.swing.JFrame {
                   else if(index1==6)//Translate Marathi to Punjabi
                       
                   {
-                  String fileName = "/home/rajesh/gui_model/marathi-punjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+               //   String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+               //          String line ;
+               //          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/marathi-punjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/marathi-punjabi/decoding_marathi-punjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10943,7 +10947,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/marathi-punjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea13.read(br, null);
@@ -10958,17 +10962,17 @@ public class translation extends javax.swing.JFrame {
                    }
                   else if(index1==7)//Translate Malayalam to Punjabi
                   {
-                     String fileName = "/home/rajesh/gui_model/malayalam-punjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                    // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                    //     String line ;
+                    //     ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/malayalam-punjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/malayalam-punjabi/decoding_malayalam-punjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -10978,7 +10982,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/malayalam-punjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea13.read(br, null);
@@ -10992,17 +10996,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==8)//Translate Urdu to Punjabi
                   { 
-                      String fileName = "/home/rajesh/gui_model/urdu-punjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                     // String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                     //    String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/urdu-punjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/urdu-punjabi/decoding_urdu-punjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -11012,7 +11016,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/urdu-punjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea13.read(br, null);
@@ -11027,17 +11031,17 @@ public class translation extends javax.swing.JFrame {
                   
                   else if(index1==9)//Translate Konkani to Punjabi
                   {   
-                      String fileName = "/home/rajesh/gui_model/konkani-panjabi/test.out.hi.text";
-                         String line ;
-                         ArrayList aList = new ArrayList();
+                      //String fileName = "/home/iitp/rajesh/global_call/test.out.hi.text";
+                        // String line ;
+                     //    ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/gui_model/konkani-panjabi/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/global_call/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/konkani-panjabi/decoding_konkani-panjabi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/global_call/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -11047,7 +11051,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/gui_model/konkani-panjabi/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/global_call/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea13.read(br, null);
@@ -11067,17 +11071,17 @@ public class translation extends javax.swing.JFrame {
                    }
             /*      else if (index1==11)//Translate Manipuri to Punjabi
                   {
-                    String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                    String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -11087,7 +11091,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea13.read(br, null);
@@ -11101,17 +11105,17 @@ public class translation extends javax.swing.JFrame {
                   }
                   else if (index1==12)//Translate Sanskrit to Punjabi
                   {
-                      String fileName = "/home/rajesh/set_eng_to_hindi/test/test.out.hi.text";
+                      String fileName = "/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text";
                          String line ;
                          ArrayList aList = new ArrayList();
         
                   try {
-                  FileWriter fw = new FileWriter("/home/rajesh/set_eng_to_hindi/test/test.en.text");
+                  FileWriter fw = new FileWriter("/home/iitp/rajesh/set_eng_to_hindi/test/test.en.text");
                   PrintWriter pw = new PrintWriter(fw);
                   pw.print(jarea1);
                   pw.close();
                   //JOptionPane.showMessageDialog(this,"string copied .....");
-                  Process c = Runtime.getRuntime().exec("bash /home/rajesh/gui_model/decoding_eng-hi.sh");
+                  Process c = Runtime.getRuntime().exec("bash /home/iitp/rajesh/gui_model/decoding.sh");
                   InputStream is = c.getInputStream();
                   int l=0 ;
                   StringBuffer sb = new StringBuffer();
@@ -11121,7 +11125,7 @@ public class translation extends javax.swing.JFrame {
 	           //  JOptionPane.showMessageDialog(this,"translation under process");
 	          //c.waitFor(50000,TimeUnit.MILLISECONDS);
                   c.destroy();
-                  FileReader fr = new FileReader("/home/rajesh/set_eng_to_hindi/test/test.out.hi.text");
+                  FileReader fr = new FileReader("/home/iitp/rajesh/set_eng_to_hindi/test/test.out.hi.text");
                   BufferedReader br = new BufferedReader(fr);
            
                   jTextArea13.read(br, null);
@@ -11161,10 +11165,10 @@ public class translation extends javax.swing.JFrame {
             jTextArea9.setVisible(true);
             jCheckBox8.setVisible(true);
             jTextArea10.setVisible(true);
+            jTextArea12.setVisible(true);
             jCheckBox9.setVisible(true);
             jTextArea11.setVisible(true);
             jCheckBox10.setVisible(true);
-            jTextArea12.setVisible(true);
             jCheckBox11.setVisible(true);
             jTextArea13.setVisible(true);
             jCheckBox12.setVisible(true);
