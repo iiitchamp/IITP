@@ -640,9 +640,9 @@ public class translation extends javax.swing.JFrame {
                  else if(index2==1)//English to hindi 
                       {
         
-                        // String fileName = "/home/rajesh/gui_model/english-hindi/test.out.hi.text";
-                         //String line ;
-                         //ArrayList aList = new ArrayList();
+                         String fileName = "/home/rajesh/gui_model/english-hindi/test.out.hi.text";
+                         String line ;
+                         ArrayList aList = new ArrayList();
         
                   try {
                   FileWriter fw = new FileWriter("/home/rajesh/gui_model/english-hindi/test.en.text");
@@ -7116,9 +7116,9 @@ public class translation extends javax.swing.JFrame {
         else {
                   if(index1==0)//Translate English to Bengali
                   { 
-                      //String fileName = "/home/rajesh/gui_model/eng-bengali/test.out.hi.text";
-                        // String line ;
-                         //ArrayList aList = new ArrayList();
+                      String fileName = "/home/rajesh/gui_model/eng-bengali/test.out.hi.text";
+                         String line ;
+                         ArrayList aList = new ArrayList();
         
                   try {
                   FileWriter fw = new FileWriter("/home/rajesh/gui_model/eng-bengali/test.en.text");
